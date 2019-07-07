@@ -1,0 +1,24 @@
+{
+  "name": "neko-viewer-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "electron app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cotwo0139/Neko-Viewer-Electron.git"
+  },
+  "author": "Sangoon_Is_Noob",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/cotwo0139/Neko-Viewer-Electron/issues"
+  },
+  "homepage": "https://github.com/cotwo0139/Neko-Viewer-Electron#readme",
+  "dependencies": {
+    "electron": "^5.0.6",
+    "req-fast": "^0.2.18"
+  }
+}

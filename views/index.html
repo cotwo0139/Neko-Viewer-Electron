@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <!-- CSS -->
+    <style>
+        .thumbnail-wrappper {
+            width: 25%;
+        }
+
+        .thumbnail {
+            position: relative;
+            padding-top: 100%;
+            /* 1:1 ratio */
+            overflow: hidden;
+        }
+
+        .thumbnail .centered {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            -webkit-transform: translate(50%, 50%);
+            -ms-transform: translate(50%, 50%);
+            transform: translate(50%, 50%);
+        }
+
+        .thumbnail .centered img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            max-width: 100%;
+            height: auto;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+    </style>
+    <link rel="stylesheet" href="http://joaopereirawd.github.io/fakeLoader.js/css/fakeLoader.min.css">
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- Meta -->
+</head>
+
+<body>
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://joaopereirawd.github.io/fakeLoader.js/js/fakeLoader.min.js"></script>
+    <div class="fakeLoader"></div>
+    <script>
+        $(document).ready(function () {
+            $.fakeLoader({
+                bgColor: '#7289DA',
+                spinner: "spinner4"
+            });
+        });
+    </script>
+    <!-- <div class="thumbnail-wrapper"> -->
+        <!-- <div class="thumbnail"> -->
+            <div class="centered">
+                <img id="a" src="xxxx">
+            </div>
+        <!-- </div> -->
+    <!-- </div> -->
+</body>
+
+</html>
