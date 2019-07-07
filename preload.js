@@ -9,3 +9,5 @@ function load_neko() {
     img.src = res.body.neko;
   });
 }
+
+window.load_neko = load_neko

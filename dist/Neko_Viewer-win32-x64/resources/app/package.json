@@ -4,8 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "test": "node test.js",
     "start": "electron app.js",
-    "test": "electron-packager . Neko_Viewer --platform win32 --arch x64 --out dist/"
+    "build": "electron-packager . Neko_Viewer --platform win32 --arch x64 --out dist/"
   },
   "repository": {
     "type": "git",
